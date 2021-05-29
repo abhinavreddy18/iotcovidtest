@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+<body>
+<form name="myForm" onsubmit="return validation()">
+  <div class="container">
+  <center>  <h1>Registration Form</h1> </center><hr>
+
+  <label> Firstname </label> 
+  <input type="text" name="firstname" placeholder= "Firstname" size="15" required ><br><br>
+
+  <label> Lastname: </label>  
+  <input type="text" name="lastname" placeholder="Lastname" size="15" required ><br><br>
+  <label> Age: </label>  
+  <input type="number" name="age" placeholder="age" size="3" required><br>
+ 
+
+
+<br><label> Gender :</label>
+<input type="radio" value="Male" name="gender" checked > Male 
+<input type="radio" value="Female" name="gender"> Female 
+<input type="radio" value="Other" name="gender"> Other<br><br>
+
+<label> Phone :</label>
+<input type="number" name="phnumber" placeholder="Phone Number" size="13" required> <br><br>
+
+
+<label> Testing Centre :</label> 
+<select>
+<option value="select_centre">Select a Centre</option>
+<option value="AIG Hospitals">AIG Hospitals, Gachibowli</option>
+<option value="Apollo Hospitals">Apollo Hospitals, Jubliee Hills</option>
+<option value="Avigna laboratories LLP">Avigna laboratories LLP, Madeenaguda</option>
+<option value="Cytomol Labs">Cytomol Labs, Kavadiguda</option>
+<option value="ESIC Medical College">ESIC Medical College, Sanath Nagar</option>
+<option value="Gandhi Medical College">Gandhi Medical College, Secunderabad</option>
+</select><br><br>
+
+
+<label> Email ID :</label>
+<input type="text" name="Email ID" placeholder="Email ID" size="25" required ><br><br>
+<input class="button" type="submit" value="Submit">
+</form>
